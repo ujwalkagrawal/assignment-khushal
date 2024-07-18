@@ -1,0 +1,40 @@
+@import "~antd/dist/antd.css";
+
+// Fonts
+@import "./fonts";
+
+.App {
+  position: relative;
+  main {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding: 10px;
+    width: 65%;
+    .section-left {
+      flex-grow: 1;
+      transition: width 0.3s;
+      overflow-y: auto;
+      position: relative;
+    }
+
+    .drawer {
+      height: 100%;
+      transition: width 0.3s;
+      background-color: #f4f4f4;
+      position: fixed;
+      right: 0;
+      top: 0;
+
+    }
+    .drawer-close {
+      width: 0;
+    }
+    .drawer-open {
+      width: 35%;
+            @media (max-width: 800px) {
+        width: 100%;
+      }
+    }
+  }
+}

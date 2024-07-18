@@ -1,0 +1,51 @@
+aside {
+  border-left: 2px solid black;
+  background-color: white;
+  height: 100%;
+  padding: 10px;
+  .cancel-section {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  section {
+    padding: 10px;
+    .input-container {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 5px;
+
+      .creation-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      .creation-input {
+        outline: none;
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 4px;
+      }
+    }
+    .colors-selection-box {
+      display: flex;
+      flex-direction: column;
+      margin: 20px 0px;
+    }
+
+    .error-container {
+      flex: row;
+      align-items: center;
+      color: red;
+      span {
+        font-size: 16px;
+      }
+    }
+
+    .done-btn {
+      padding: 10px 20px;
+      background-color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+}

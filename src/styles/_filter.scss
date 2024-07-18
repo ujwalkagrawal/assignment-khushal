@@ -1,0 +1,29 @@
+.filter-box {
+    padding: 10px;
+    width: 70%;
+    @media (max-width: 1000px) {
+        width: 100%;
+    }
+    .filter-box-title {
+    font-size: 30px;
+    }
+
+.filters-type {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+     .colors-container {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   .color-text{
+    margin-bottom: 10px;
+}
+}
+
+}
+
+
+}

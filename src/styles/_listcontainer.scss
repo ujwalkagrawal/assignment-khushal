@@ -1,0 +1,22 @@
+.list-container {
+    // background-color: beige;
+    display: flex;
+    flex-direction: column;
+
+    .box-list {
+        margin-top: 10px;
+    }
+
+    .add-creative-btn{
+        display: flex;
+        align-items: center;
+        width:fit-content;
+        padding: 5px;   
+        cursor: pointer;
+    }
+
+    .disable-add-creative-btn{
+        opacity: 0.2;
+        cursor: default;
+    }
+}

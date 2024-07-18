@@ -1,0 +1,22 @@
+.creative-box {
+  min-height: 100px;
+  min-width: 250px;
+  max-width: 400px;
+  max-height: 120px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+  .creative-title {
+    font-size: 30px;
+    margin: 0px;
+  }
+  .creative-subtitle {
+    font-size: 20px;
+    margin: 0px;
+  }
+}

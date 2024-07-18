@@ -1,0 +1,15 @@
+.progress-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    progress { 
+       height: 50px;
+       width:  60%;
+    }
+
+    .progress-text { 
+       font-size: 16px;
+       margin-left: 10px;
+    }
+
+}
